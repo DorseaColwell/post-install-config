@@ -34,7 +34,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Access the Admin Panel
+
+Open a web browser and navigate to http://localhost/osTicket/scp.
+Log in with the admin credentials set during installation.
+Configure General Settings
+
+Navigate to Admin Panel > Settings > System.
+Update the "Helpdesk Name" and "Default Email Address" to match your organization.
+Set Up Email Settings
+
+Go to Admin Panel > Emails > Settings.
+Configure email fetching and sending options (IMAP/SMTP).
+Add a new email under Emails > Add New Email for ticket notifications.
 </p>
 <br />
 
@@ -42,7 +54,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create Departments
+
+Navigate to Admin Panel > Agents > Departments.
+Add departments like Support, IT, or HR to categorize tickets.
+Define Help Topics
+
+Go to Admin Panel > Manage > Help Topics.
+Add help topics such as "Technical Support" or "Billing Inquiry" to organize tickets.
+Configure SLA Plans
+
+Navigate to Admin Panel > Manage > SLA Plans.
+Set up response time targets for different ticket priorities.
+Add Agents and Assign Roles
+
+Go to Admin Panel > Agents > Add New Agent.
+Assign roles (e.g., Admin, Staff) and set permissions for each agent.
 </p>
 <br />
 
@@ -50,6 +77,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Customize Ticket Settings
+
+Navigate to Admin Panel > Settings > Tickets.
+Adjust ticket creation rules, auto-responses, and alerts.
+Enable Plugins (Optional)
+
+Go to Admin Panel > Manage > Plugins.
+Install and configure any desired plugins, like LDAP or Authentication plugins.
+Review System Information
+
+Navigate to Admin Panel > Dashboard > Information.
+Verify server settings and osTicket version to ensure everything is functioning correctly.
 <br />
